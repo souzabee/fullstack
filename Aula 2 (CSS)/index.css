@@ -1,0 +1,77 @@
+#link:hover{
+    a {color: #00FF00}
+
+}
+
+#link_1:hover{
+    a {color: #fffb00}
+
+}
+
+#link_2:hover{
+    a {color: #ff0000}
+
+}
+
+#link_3:hover{
+    a {color: #ff00f2}
+
+}
+
+
+body{
+    font-size: 14pt;
+
+    background-color:black;
+
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    font-size: 12pt;
+    text-align:center
+}
+
+ol, li {
+    color: #ffffff;
+    font-size: 14pt;
+    text-align: left  
+}
+ 
+#texto{
+    height: 100px; 
+    width: 200px;  
+    background-color: #ff00f2;
+    margin-top: 50pt;
+    margin-bottom: 30pt;
+    margin-left: 600pt;
+    margin-right: 600pt;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 50px;    
+    padding-right: 50px; 
+    padding-left: 50px;
+
+
+
+    p {
+        color: #000000;
+        text-align: center;
+    }
+
+    
+}
+
+h1 {
+    color:#ffffff;
+}
+
+h2 {
+    color:#ffffff;
+}
+
+h3 {
+    color:#ffffff;
+}
+
