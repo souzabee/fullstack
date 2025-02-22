@@ -47,7 +47,7 @@ ol, li {
     margin-bottom: 30pt;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(0, 0, 0);
+    color: #000000;
     padding-top: 5px;
     padding-bottom: 50px;    
     padding-right: 50px; 
@@ -56,7 +56,7 @@ ol, li {
 
 
     p {
-        color:rgb(0, 238, 255);
+        color:#00EEFF;
         text-align: center;
     }
 
