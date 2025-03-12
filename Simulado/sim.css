@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    
+  
+    
+}
+
+
+.flex-container div {
+    background: #8a2be2;
+    font-size: 16px;
+    color: #ffff;
+    width: 165px;
+    height: 150px;
+    
+    
+    
+     
+
+}
+
+#links1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 5px;
+    
+    
+   
+}
+
+
+
+
+
+body {
+    color: #3a7fad;
+    
+}
