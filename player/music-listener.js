@@ -1,8 +1,8 @@
 document.addEventListener ("DOMContentLoaded", function(){
     const songs = [
-        {title: "red velvet - psycho", file: "musicas/psycho.mp3"},
-        {title: "the strokes - hard to explain", file: "musicas/strokes.mp3"},
-        {title: "notorious b.i.g - party and bullshit", file: "musicas/big.mp3"}
+        {title: "red velvet - psycho", file: "musicas/psycho.mp3", image: "imagens/psycho.jpeg"},
+        {title: "the strokes - hard to explain", file: "musicas/strokes.mp3", image: "imagens/thestrokes.jpg"},
+        {title: "notorious b.i.g - party and bullshit", file: "musicas/big.mp3", image : "imagens/bullshit.jpeg"}
     ];
 
     let currentSongIndex = 0;
@@ -20,6 +20,7 @@ document.addEventListener ("DOMContentLoaded", function(){
         const currentSong = songs[currentSongIndex];
         songTitle.textContent = currentSong.title;
         audioSource.src = currentSong.file;
+        songImage.src = currentSong.image;
         audioPlayer.load();
         audioPlayer.play();
         playPauseButton.textContent = "Pause"
@@ -52,6 +53,12 @@ document.addEventListener ("DOMContentLoaded", function(){
 
     audioPlayer.addEventListener("ended", function () {
         nextButton.click();
+    });
+
+    songImage.addEventListener("click", function(){
+        currentSongIndex = (currentImageIndex + 1) % songs.length;
+        updatePlayer();
+
     });
 
     updatePlayer();
