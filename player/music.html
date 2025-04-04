@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music</title>
+        <link href = "music.css" rel = "stylesheet">
+    </head>
+    <body>
+    <div class = "alin">
+        <a id = "song-title">Sem musica</a>
+        <br>
+        <progress id = "progress-bar" value = "0"  max = "100"></progress>
+        <audio id = "audio-player">
+            <source id = "audio-source", src = "musicas/psycho.mp3", src = "musicas/strokes.mp3", src = "musicas/big.mp3">
+        </audio>
+        <div class = "buttons">
+            <button id = "play-pause" style = "order: 2">Play</button>
+            <button id = "next" style = "order: 3">Next</button>
+            <button id = "prev" style = "order: 1">Prev</button>
+        </div>
+    </div>
+
+       
+        
+        <script src = "music-listener.js"></script>
+    </body>
+</html>
