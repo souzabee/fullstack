@@ -1,0 +1,12 @@
+#canvas {
+    display: flex;
+    border-style: solid;
+    border: 2px solid;
+    background-color: bisque;
+    
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+}
