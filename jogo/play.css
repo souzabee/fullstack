@@ -1,0 +1,117 @@
+#title {
+    display: flex;
+    justify-content: center;
+    font-family:'BOOKmanOpti';
+    font-size: 75pt;
+    color:#ffffff;
+    gap: 60pt;
+   
+	
+
+}
+
+#title div {
+    color: #962c2c
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-family: 'BOOKmanOpti' ;
+    font-size: 45pt;
+    color: #ffffff;
+    margin-right: 8%;
+    a{
+        color:#ffffff;
+        width: 100px;
+        white-space: nowrap;
+        text-decoration: none;
+        transition: all 0.3s ease;
+         
+    }
+    a:hover{
+        transform: scale(1.05);
+        text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #962c2c,
+        0 0 15px #962c2c,
+        0 0 20px #962c2c;
+        
+    }
+    
+}
+
+body {
+    background-image: url('imagens/swordfish.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+
+
+#canvas {
+    position: relative;
+    display: flex;
+    border-style: solid;
+    border: 2px solid;
+    background-color: rgb(255, 255, 255);
+    background-image: url(imagens/peakpx.jpg);
+    z-index: 2;
+    
+}
+
+.canvas-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    position: relative;
+    width: 1500px;
+    height: 1000px;
+}
+
+.canvas-center canvas {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+
+}
+
+.canvas-center img {
+    position: absolute;
+    width: 1500px;
+    height :1000px;
+    z-index: 1;
+    object-fit: cover;
+    
+}
+    
+
+.start {
+    display: flex;
+    justify-content: center;
+    background-color: #962c2c;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'BOOKmanOpti' ;
+    font-size: 35px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 5px black;
+    
+
+    
+
+}
+
+.start-center{
+    display: flex;
+    justify-content: center;
+    
+}
