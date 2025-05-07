@@ -23,6 +23,7 @@
     font-size: 45pt;
     color: #ffffff;
     margin-right: 8%;
+    
     a{
         color:#ffffff;
         width: 100px;
@@ -41,13 +42,14 @@
         
     }
     
+    
 }
 
 body {
     background-image: url('imagens/swordfish.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    
     
     
 }
@@ -114,4 +116,13 @@ body {
     display: flex;
     justify-content: center;
     
+}
+
+.instrucoes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    color: #fff;
+    font-size: 15pt;
 }

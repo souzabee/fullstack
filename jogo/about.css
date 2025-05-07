@@ -1,0 +1,56 @@
+#title {
+    display: flex;
+    justify-content: center;
+    font-family:'BOOKmanOpti';
+    font-size: 75pt;
+    color:#ffffff;
+    gap: 60pt;
+   
+	
+
+}
+
+#title div {
+    color: #962c2c
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-family: 'BOOKmanOpti' ;
+    font-size: 45pt;
+    color: #ffffff;
+    margin-right: 8%;
+    
+    a{
+        color:#ffffff;
+        width: 100px;
+        white-space: nowrap;
+        text-decoration: none;
+        transition: all 0.3s ease;
+         
+    }
+    a:hover{
+        transform: scale(1.05);
+        text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #962c2c,
+        0 0 15px #962c2c,
+        0 0 20px #962c2c;
+        
+    }
+    
+    
+}
+
+body {
+    background-image: url('imagens/swordfish.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+    
+}
