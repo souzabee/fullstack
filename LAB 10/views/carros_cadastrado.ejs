@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Posts do Blog</title>
+   <link href="/stylejs.css" rel="stylesheet">
+</head>
+<body>
+    <% if (posts.length === 0) { %>
+        <p>Nenhum post ainda!</p>
+    <% } else { %>
+        <% posts.forEach(function(post) { %>
+            <div>
+                <h4>
+                    <%= post.db_marca %><br>
+                    <%= post.db_modelo %><br>
+                    <%= post.db_ano %><br>
+                    <%= post.db_qtd %>
+                </h4>
+
+                <!-- Botão para editar esse carro -->
+                <a href="/carros/editar/<%= post._id %>">Atualizar</a>
+                <a href="/carros/remover/<%= post._id %>">deletar</a>
+            </div>
+        <% }); %>
+    <% } %>
+
+<a href="/cadastrar_carro">Gerenciar</a>
+
+</body>
+</html>
+
+<!-- <h3>Remover carro por texto</h3>
+<form action="/carros/remover_por_texto" method="POST">
+    <label>Marca: <input type="text" name="marca"></label><br>
+    <label>Modelo: <input type="text" name="modelo"></label><br>
+    <button type="submit">Remover</button>
+</form> -->
